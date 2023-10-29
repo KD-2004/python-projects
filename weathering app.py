@@ -1,7 +1,7 @@
 import requests
 
 city = input("Enter city name: ")
-api_key = "1e5b7674a9a0089ea36ff7c1e2712803" # Get your API key by signing up at https://openweathermap.org/api
+api_key = "" # Get your API key by signing up at https://openweathermap.org/api
 
 url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
